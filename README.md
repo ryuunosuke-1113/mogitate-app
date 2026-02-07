@@ -30,3 +30,9 @@ cp src/mogitate/.env.example src/mogitate/.env
 docker compose up -d
 docker compose exec php php artisan key:generate
 docker compose exec php php artisan migrate
+``` 
+## ER図
+
+![ER図](docs/er.png)
+
+

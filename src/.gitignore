@@ -22,3 +22,20 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+# Laravel storage
+src/storage/*
+!src/storage/app/public/.gitkeep
+
+# キャッシュ
+src/storage/framework
+src/bootstrap/cache
+
+# ===== portfolio safety =====
+
+# storage (uploaded files & cache)
+storage/*
+!storage/app/public/.gitkeep
+
+# compiled views / cache
+storage/framework
+bootstrap/cache
